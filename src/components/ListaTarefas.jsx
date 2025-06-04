@@ -6,7 +6,7 @@ export default function ListaTarefas(){
   const [novaTarefa, setNovaTarefa] = useState('')
 
   function adicionarTarefa(){
-    if (novaTarefa.trim() !== '') { // Verifica se a tarefa não está vazia
+    if (novaTarefa.trim() !== '') {
       setTarefas([...tarefas, novaTarefa])
       setNovaTarefa('')
     }
@@ -14,7 +14,7 @@ export default function ListaTarefas(){
 
   return(
     <div className="container">
-      <h1>📝Lista de Tarefas</h1>
+      <h1> 📝 Lista de Tarefas</h1>
       <input
         value={novaTarefa}
         onChange={(e) => setNovaTarefa(e.target.value)}

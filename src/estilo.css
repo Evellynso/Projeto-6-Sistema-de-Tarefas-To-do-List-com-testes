@@ -4,13 +4,13 @@
     font-family: sans-serif;
 }
 body {
-    background-color: #ffffffb4;
+    background-color:rgba(255, 253, 228, 0.85);
     box-sizing: border-box;
     font-family: sans-serif;
-    width: 100vw;
-    height: 100vh; /* Alterado para 100vh para cobrir toda a tela */
+    width: 101vw;
+    height: 101vh; 
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2em;
+    padding:4em;
 }

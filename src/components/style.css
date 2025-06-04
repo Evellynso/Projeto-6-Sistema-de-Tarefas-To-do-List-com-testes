@@ -1,5 +1,5 @@
 .container{
-    background-color: #f9f9f9;
+    background-color:rgba(252, 252, 252, 0.94);
     width: 350px;
     height: 200px;
     border-radius: 10px;
@@ -15,15 +15,15 @@ button{
     margin-bottom: 5px;
     margin-left:10px;
     margin-top: 20px;
-    border-radius: 3px;
-    border: solid 1px #505050;
+    border-radius: 15px;
+    border: solid 1pxrgba(80, 80, 80, 0);
     cursor: pointer;
     font-size: large;
 
 }
 
 p{
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
 }
 
@@ -31,7 +31,7 @@ input {
     width: 50%;
     padding: 15px;
     margin: 10px auto;
-    border: 1px solid #505050;
-    border-radius: 5px;
+    border: 1px solidrgba(80, 80, 80, 0);
+    border-radius:15px;
     font-size: large;
 }
